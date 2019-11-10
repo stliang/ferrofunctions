@@ -8,7 +8,7 @@ Your Firebase project would have different credential and names.  So, clone this
 https://firebase.google.com/docs/functions/get-started
 
 ```
-PROMPT >> firebase init functions
+OS PROMPT >> firebase init functions
 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -64,11 +64,11 @@ After firebase function is initialized, clone the ferrofunctions project and cop
 
 # To deploy
 firebase login
-cd <parent directory>/<project root directory>
+cd `<parent directory>/<project root directory>`
 firebase deploy --only functions
 Output should look like this:
 ```
->> firebase deploy --only functions
+OS PROMPT >> firebase deploy --only functions
 
 === Deploying to 'ferrorod'...
 
