@@ -64,8 +64,11 @@ After firebase function is initialized, clone the ferrofunctions project and cop
 
 # To deploy
 firebase login
+
 cd `<parent directory>/<project root directory>`
+
 firebase deploy --only functions
+
 Output should look like this:
 ```
 OS PROMPT >> firebase deploy --only functions
