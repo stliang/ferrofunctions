@@ -1,7 +1,7 @@
-### ferrofunctions
+# ferrofunctions
 Firebase functions for user account aministraction
 
-# Getting started
+## Getting started
 
 Your Firebase project would have different credential and names.  So, clone this repo and follow the Firebase getting started guid.
 
@@ -62,7 +62,7 @@ i  Writing gitignore file to .gitignore...
 
 After firebase function is initialized, clone the ferrofunctions project and copy the /ferrofunctions/functions/src/index.ts file to your project
 
-# To deploy
+## To deploy
 firebase login
 
 cd `<parent directory>/<project root directory>`
